@@ -1,0 +1,42 @@
+body{
+    width: 100%;
+    right: 100%;
+    background-image: url('banner.jpeg');
+}
+
+.menuPrincipal{
+   
+    background-color: rgb(14, 11, 11);
+    height: 60px;
+}
+
+main{
+    width: 980px;
+    float: left;
+    position: relative;
+
+}
+
+.logo{
+    float: left;
+    padding: 16px;
+    width: 67%;
+    
+    
+    
+}
+.redes ul li {
+    margin-left: 15px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+    
+}
+
+.redes {
+    width: 25%;
+    float: right;
+}
+
+display: grid;
+grid-template-columns: 1fr  1fr;
